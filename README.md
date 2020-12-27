@@ -14,7 +14,7 @@ Eclipse IDE including STS(Spring Tool Suite)
 
 Spring Legacy Project(Spring MVC Project)
 
-
+Lombok installed
 
 
 
