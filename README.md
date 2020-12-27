@@ -8,7 +8,7 @@ eclipse.ini -> change
 <
 -vm
 (javaw.exe file location)
->
+>>
 
 Eclipse IDE including STS(Spring Tool Suite)
 
