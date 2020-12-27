@@ -1,5 +1,3 @@
-# Spring-Exercise
-
 # Version
 JDK version = 1.8
 Tomcat version = 9.x 
