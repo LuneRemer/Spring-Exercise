@@ -22,7 +22,7 @@ Spring Legacy Project(Spring MVC Project)
 Lombok installed
 
 # Dependency managing
-Dependency using .xml file.(Not through java)
+Dependency manage using .xml file.(Not through java)
 
 
 
