@@ -1,25 +1,27 @@
+# Spring-Exercise
+
 # Version
 JDK version = 1.8
 Tomcat version = 9.x 
 Spring version = 5
 
-#IDE
+# IDE
 Eclipse IDE including STS(Spring Tool Suite)
 
-#Setting file change
+# Setting file change
 eclipse.ini -> change
 <
 -vm
 (javaw.exe file location)>
 >
 
-#Project property
+# Project property
 Spring Legacy Project(Spring MVC Project)
 
-#Libiraries
+# Libiraries
 Lombok installed
 
-#Dependency managing
+# Dependency managing
 Dependency using .xml file.(Not through java)
 
 
