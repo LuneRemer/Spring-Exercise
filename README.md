@@ -18,7 +18,7 @@ eclipse.ini -> change
 # Project property
 Spring Legacy Project(Spring MVC Project)
 
-# Libiraries
+# Libraries
 Lombok installed
 
 # Dependency managing
