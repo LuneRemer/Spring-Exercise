@@ -12,3 +12,8 @@ Connection Pool 설정
 OR
 - HikariCP(https://github.com/brettwooldridge/HikariCP) 이용
 
+'HikariCP'
+- pom.xml 의 dependency 에 HikariCP를 추가
+- root-context.xml 에서 <bean> 태그를 정의한 후 <property> 추가해서 사용.
+- 자세한 내용은 프로젝트의 pom.xml 과 root-context.xml 참조
+
