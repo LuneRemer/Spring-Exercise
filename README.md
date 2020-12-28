@@ -1,5 +1,5 @@
 # Spring-Exercise
-jex00 - Dependency manage through java\n
+jex00 - Dependency manage through java
 ex00 - Dependency manage through .xml
 
 
