@@ -1,1 +1,2 @@
 Connection Test between Database and Spring use Java and JDBC driver. 
+(import java.sql.Connection, import java.sql.DriverManager)
