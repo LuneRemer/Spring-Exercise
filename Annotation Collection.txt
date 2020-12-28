@@ -17,7 +17,7 @@ Annotation related to Spring
 -@Autowired
 (스프링 내부에서 자신이 특정한 객체에 의존적이므로 자신에게 해당 타입의 빈을 주입하라는 표시)
 
--@Componet
+-@Component
 (해당 클래스가 스프링에서 객체로 만들어서 관리하는 대상임을 명시하는 Annotation)
 (root-context.xml에서 @ComponentScan을 통해서 @Component가 있는 클래스를 스프링이 읽도록 지정)
 
