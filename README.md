@@ -13,7 +13,7 @@
 
 # Setting file change
 * eclipse.ini -> change
-* <-vm (javaw.exe file location)>
+  * <-vm (javaw.exe file location)>
 
 
 # Project property
