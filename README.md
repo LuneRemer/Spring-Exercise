@@ -1,4 +1,7 @@
 # Spring-Exercise
+jex00 - Dependency manage through java\n
+ex00 - Dependency manage through .xml
+
 
 # Version
 -JDK version = 1.8
