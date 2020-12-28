@@ -1,2 +1,14 @@
 Connection Test between Database and Spring use Java and JDBC driver. 
 (import java.sql.Connection, import java.sql.DriverManager)
+
+Connection Pool 설정
+-여러명의 사용자를 동시에 처리해야 하는 웹 애플리케이션의 경우 데이터베이스 연결을 이용할 때는 'Connection Pool'을 이용함( Log-in 등의 목적인경우, 등등)
+-스프링에 'Connection Pool'을 등록해서 사용
+-Java에서는 DataSource라는 Interface를 통해서 'Connection Pool'을 사용함.
+-DataSource를 통해 매번 데이터베이스와 연결하는 방식이 아니라, 미리 연결을 맺어주고 반환하는 구조를 이용함.
+
+'Connection Pool'의 종류
+- spring-jdbc 라이브러리 이용
+OR
+- HikariCP(https://github.com/brettwooldridge/HikariCP) 이용
+
