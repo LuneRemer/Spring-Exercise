@@ -5,8 +5,8 @@
 
 # Version
 *JDK version = 1.8
--Tomcat version = 9.x 
-+Spring version = 5
+*Tomcat version = 9.x 
+*Spring version = 5
 
 # IDE
 *Eclipse IDE including STS(Spring Tool Suite)
