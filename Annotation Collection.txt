@@ -1,0 +1,8 @@
+Annotation related to Lombok
+-@Setter, @Data, @Log4j
+
+Annotation related to Spring
+-@Autowired, @Componet
+
+Annotation related to Test
+-@Runwith, @ContextConfiguration, @Test
