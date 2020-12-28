@@ -74,7 +74,7 @@
 			<version>${org.slf4j-version}</version>
 			<scope>runtime</scope>
 		</dependency>
-		<!-- 
+		
 		<dependency>
 			<groupId>log4j</groupId>
 			<artifactId>log4j</artifactId>
@@ -99,7 +99,7 @@
 			</exclusions>
 			<scope>runtime</scope>
 		</dependency>
-		-->
+		
 
 		<!-- @Inject -->
 		<dependency>
@@ -133,7 +133,16 @@
 			<artifactId>junit</artifactId>
 			<version>4.12</version>
 			<scope>test</scope>
-		</dependency>        
+		</dependency>
+		
+		<!-- HikariCP dependency 추가 -->
+		<!-- https://mvnrepository.com/artifact/com.zaxxer/HikariCP -->
+		<dependency>
+			<groupId>com.zaxxer</groupId>
+			<artifactId>HikariCP</artifactId>
+			<version>2.7.4</version>
+		</dependency>
+		        
 	</dependencies>
     <build>
         <plugins>
