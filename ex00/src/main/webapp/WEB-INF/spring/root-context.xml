@@ -19,7 +19,7 @@
 	<bean id="dataSource" class="com.zaxxer.hikari.HikariDataSource"
 		destroy-method="close">
 		<constructor-arg ref="hikariConfig" />
-		</bean>
+	</bean>
 	
 	
 	<context:component-scan base-package="org.zerock.sample">
