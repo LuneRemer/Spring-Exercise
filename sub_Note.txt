@@ -17,6 +17,8 @@ OR
 - root-context.xml 에서 <bean> 태그를 정의한 후 <property> 추가해서 사용.
 - 자세한 내용은 프로젝트의 pom.xml 과 root-context.xml 참조
 
+<mybatis-spring:scan> 태그의 base-package 속성은 지정된 패키지의 모든 MyBatis 관련 Annotation을 찾아서 처리함.
+
 'Mapper interface'
 
 'Mapper 설정'
