@@ -31,3 +31,6 @@ Annotation related to Test
 
 -@Test
 (junit에서 해당 메서드가 jUnit 상에서 단위 테스트으 대상인지 알려줌)
+
+Annotation related to MyBatis
+-@Select(Sql 구문 사용가능)
