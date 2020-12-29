@@ -15,13 +15,18 @@
 * eclipse.ini -> change
   * <-vm (javaw.exe file location)> 를 상단에 추가
 
-
 # Project property
 * Spring Legacy Project(Spring MVC Project)
+
+# Database
+* Oracle SQL Developer
 
 # Libraries
 * Lombok 
 * Log4j
+* HikariCP(Connection Pool)
+* MyBatis(Sql, Database)
+* Log4jdbc-log4j2(Sql log)
 
 # Dependency managing
 * Dependency manage using .xml file.(Not through java)
