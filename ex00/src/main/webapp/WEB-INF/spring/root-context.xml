@@ -21,6 +21,10 @@
 		<constructor-arg ref="hikariConfig" />
 	</bean>
 	
+	<!-- MyBatis에서 핵심적인 객체인 SQLSession 등록 -->
+	<bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+		<property name="dataSource" ref="dataSource"></property>
+	</bean>
 	
 	<context:component-scan base-package="org.zerock.sample">
 	</context:component-scan>
