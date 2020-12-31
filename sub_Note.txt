@@ -39,4 +39,16 @@ TimeMapperTests 클래스가 정상적으로 돌아간다면 스프링 내부에
 - <select> 태그의 경우 resultType 속성을 가지는데 이 값은 Interface에 선언된 Method의 리턴 타입과 동일하게 작성해야 함.
 - (More Info : http://www.mybatis.org/mybatis-3/ko/sqlmap-xml.html)
 
+'MVC Project'
+- Java area(Using root-context.xml) + Web area(Using servlet-context.xml)
+
+'Explanation about .xml'
+web.xml - Setting related to Tomcat execution
+root-context.xml - Setting realted to Spring 
+servlet-context.xml - Settomg re;ated tp Spring
+
+
+
+
+
 
